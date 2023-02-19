@@ -1,0 +1,31 @@
+hr{
+    border: 2px outset sienna;
+}
+
+img[alt]{
+    border: 2px solid black;
+}
+
+img{
+    border: 2px solid red;
+}
+
+img:nth-child(1):hover {
+filter: contrast(400%); 
+}
+
+img:nth-child(3):hover {
+filter: invert(100%);
+}
+
+img:nth-child(5):hover {
+filter: grayscale(100%);
+}
+
+img:nth-child(7):hover{
+    filter: blur(5px);
+}
+
+img:nth-child(9):hover{
+    filter: sepia(100%);
+}
