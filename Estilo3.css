@@ -9,7 +9,13 @@ body{
     column-rule: 5px solid rgb(197, 14, 197); ;
 }
 
-p{
+h2{
+    text-align: center;
+    column-span: all;
+    font-style: normal;
+}
+
+.texto{
     font-style: italic;
 }
 
